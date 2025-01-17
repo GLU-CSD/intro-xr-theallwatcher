@@ -19,34 +19,34 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 0, z: 0}
-        inSlope: {x: 0, y: 30.50152, z: 83.398285}
-        outSlope: {x: 0, y: 30.50152, z: 83.398285}
+        value: {x: 0, y: 180, z: 0}
+        inSlope: {x: 0, y: 25.98311, z: 80.02456}
+        outSlope: {x: 0, y: 25.98311, z: 80.02456}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.1547169, z: 0.19259867}
+        outWeight: {x: 0.33333334, y: 0.33559445, z: 0.11498765}
       - serializedVersion: 3
         time: 0.25
-        value: {x: 0, y: 5, z: 15}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 185, z: 15}
+        inSlope: {x: 0, y: 0, z: 0.000057256704}
+        outSlope: {x: 0, y: 0, z: 0.000057256704}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.13324893}
       - serializedVersion: 3
         time: 0.5
-        value: {x: 0, y: 0, z: 0}
-        inSlope: {x: 0, y: -29.77508, z: -75.81017}
-        outSlope: {x: 0, y: -29.77508, z: -75.81017}
+        value: {x: 0, y: 180, z: 0}
+        inSlope: {x: 0, y: -30.324047, z: -83.19692}
+        outSlope: {x: 0, y: -30.324047, z: -83.19692}
         tangentMode: 0
         weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.15849161, z: 0.18490338}
+        inWeight: {x: 0.33333334, y: 0.34478247, z: 0.13426888}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.75
-        value: {x: 0, y: -5, z: -15}
+        value: {x: 0, y: 175, z: -15}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -55,17 +55,17 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: 0, y: 0, z: 0}
-        inSlope: {x: 0, y: 32.205456, z: 92.90063}
-        outSlope: {x: 0, y: 32.205456, z: 92.90063}
+        value: {x: 0, y: 180, z: 0}
+        inSlope: {x: 0, y: 29.084335, z: 108.48487}
+        outSlope: {x: 0, y: 29.084335, z: 108.48487}
         tangentMode: 0
         weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.1584928, z: 0.17194152}
+        inWeight: {x: 0.33333334, y: 0.38637805, z: 0.122080326}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: TB_Soldier_Mage
+    path: TB_Soldier_Swordman
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves: []
@@ -78,7 +78,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 3255494840
+      path: 2700943083
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -134,7 +134,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: TB_Soldier_Mage
+    path: TB_Soldier_Swordman
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -144,16 +144,16 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
-        inSlope: 30.50152
-        outSlope: 30.50152
+        value: 180
+        inSlope: 25.98311
+        outSlope: 25.98311
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
-        outWeight: 0.1547169
+        outWeight: 0.33559445
       - serializedVersion: 3
         time: 0.25
-        value: 5
+        value: 185
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -162,16 +162,16 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5
-        value: 0
-        inSlope: -29.77508
-        outSlope: -29.77508
+        value: 180
+        inSlope: -30.324047
+        outSlope: -30.324047
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.15849161
+        inWeight: 0.34478247
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.75
-        value: -5
+        value: 175
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -180,18 +180,18 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 0
-        inSlope: 32.205456
-        outSlope: 32.205456
+        value: 180
+        inSlope: 29.084335
+        outSlope: 29.084335
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.1584928
+        inWeight: 0.38637805
         outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: TB_Soldier_Mage
+    path: TB_Soldier_Swordman
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -202,29 +202,29 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: 0
-        inSlope: 83.398285
-        outSlope: 83.398285
+        inSlope: 80.02456
+        outSlope: 80.02456
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
-        outWeight: 0.19259867
+        outWeight: 0.11498765
       - serializedVersion: 3
         time: 0.25
         value: 15
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
+        inSlope: 0.000057256704
+        outSlope: 0.000057256704
+        tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
-        outWeight: 0.33333334
+        outWeight: 0.13324893
       - serializedVersion: 3
         time: 0.5
         value: 0
-        inSlope: -75.81017
-        outSlope: -75.81017
+        inSlope: -83.19692
+        outSlope: -83.19692
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.18490338
+        inWeight: 0.13426888
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.75
@@ -238,17 +238,17 @@ AnimationClip:
       - serializedVersion: 3
         time: 1
         value: 0
-        inSlope: 92.90063
-        outSlope: 92.90063
+        inSlope: 108.48487
+        outSlope: 108.48487
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.17194152
+        inWeight: 0.122080326
         outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: TB_Soldier_Mage
+    path: TB_Soldier_Swordman
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -261,7 +261,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: TB_Soldier_Mage
+    path: TB_Soldier_Swordman
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -273,7 +273,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: TB_Soldier_Mage
+    path: TB_Soldier_Swordman
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -285,7 +285,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: TB_Soldier_Mage
+    path: TB_Soldier_Swordman
     classID: 4
     script: {fileID: 0}
     flags: 0
