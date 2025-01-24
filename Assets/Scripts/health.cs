@@ -23,6 +23,12 @@ public class health : MonoBehaviour
     void UpdateHealthBar()
     {
         healthbarFill.fillAmount = currentHealth / maxHealth;
+        if (currentHealth==0 && gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("test 2");
+            Destroy(gameObject);
+        }
+       
     }
 
     public void TakeDamage(float amount)
